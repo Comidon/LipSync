@@ -9,6 +9,8 @@ public class YourLipsAreMoving : MonoBehaviour
 
     float UpperYDelta, LowerYDelta;
 
+    //TODO: ANIMATION:close --> open 4 frames
+
     // Start is called before the first frame update
     void Start()
     {
