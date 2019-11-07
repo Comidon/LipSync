@@ -11,6 +11,8 @@ public class DrawWave : MonoBehaviour
     [SerializeField]
     Vector3 velocity;
 
+    public static DrawWave instance;
+
     //The number of seconds for each song beat
     private float secPerBeat;
 
@@ -19,10 +21,27 @@ public class DrawWave : MonoBehaviour
 
     private float beatCounter = 0;
 
+    private float currentYPos = 0;
+
+    private AudioSource beep;
+
+    private float beeper = 0;
+
     private void Awake()
     {
+        if (instance == null)
+        {
+            instance = this;
+        }
+        else
+        {
+            Destroy(this);
+        }
+
         poss = new List<Vector3>();
         line = GetComponent<LineRenderer>();
+
+        beep = GetComponent<AudioSource>();
     }
 
     // Start is called before the first frame update
@@ -44,6 +63,11 @@ public class DrawWave : MonoBehaviour
         AddBlank(2);
 
         line.SetPositions(poss.ToArray());
+    }
+
+    public float GetOriginYPos()
+    {
+        return currentYPos;
     }
 
     public void AddTri()
@@ -70,6 +94,35 @@ public class DrawWave : MonoBehaviour
     private void FixedUpdate()
     {
         _ShiftLeft();
+
+        beeper -= velocity.x;
+
+        if (beeper >= 2)
+        {
+            beeper -= 2;
+            beep.Play();
+        }
+
+        int positiveIndex = 0;
+
+        for (int i = 0; i < poss.Count; i++)
+        {
+            if (poss[i].x > 0)
+            {
+                positiveIndex = i;
+                break;
+            }
+        }
+
+        if (positiveIndex != 0)
+        {
+            currentYPos = (0 - poss[positiveIndex - 1].x) * ((poss[positiveIndex].y - poss[positiveIndex - 1].y) / (poss[positiveIndex].x - poss[positiveIndex - 1].x)) + poss[positiveIndex - 1].y;
+            currentYPos = Mathf.Abs(currentYPos);
+        }
+        else
+        {
+            currentYPos = 0;
+        }
     }
 
     private void _ShiftLeft()
@@ -119,8 +172,6 @@ public class DrawWave : MonoBehaviour
         beatCounter = pos;
 
         int randLength = (int) Mathf.Floor(Random.Range(1, 3.49999999f));
-
-        Debug.Log(rand);
 
         if (rand < 1.5)
         {
