@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class YourLipsAreMoving : MonoBehaviour
+public class YourLipsAreMoving : MonoBehaviour, IPerformanceArtist
 {
     public GameObject Upper;
     public GameObject Lower;
@@ -56,5 +56,10 @@ public class YourLipsAreMoving : MonoBehaviour
         Upper.transform.localPosition -= UpperDelta / 10;
         Lower.transform.localPosition -= LowerDelta / 10;
 
+    }
+
+    public Vector3 GetLipsPosition()
+    {
+        return Upper.transform.localPosition;
     }
 }
