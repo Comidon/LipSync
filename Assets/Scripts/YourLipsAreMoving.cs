@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class YourLipsAreMoving : MonoBehaviour, IPerformanceArtist
 {
@@ -9,7 +10,10 @@ public class YourLipsAreMoving : MonoBehaviour, IPerformanceArtist
 
     float UpperYDelta, LowerYDelta;
 
+    private int index = 0;
+
     //TODO: ANIMATION:close --> open 4 frames
+    private Image animation[4] = { };
 
     // Start is called before the first frame update
     void Start()
@@ -53,8 +57,8 @@ public class YourLipsAreMoving : MonoBehaviour, IPerformanceArtist
         Vector3 UpperDelta = new Vector3(0, UpperYDelta,0);
         Vector3 LowerDelta = new Vector3(0, LowerYDelta,0);
 
-        Upper.transform.localPosition -= UpperDelta / 10;
-        Lower.transform.localPosition -= LowerDelta / 10;
+        Upper.transform.localPosition += UpperDelta / 10;
+        Lower.transform.localPosition += LowerDelta / 10;
 
     }
 
