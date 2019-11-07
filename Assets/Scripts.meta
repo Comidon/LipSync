@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< Stage
 guid: d2950fc4d0dad1b488087e498e97dec0
+=======
+guid: cef557a948c89c042984db4022087ba1
+>>>>>>> Finish coding
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
