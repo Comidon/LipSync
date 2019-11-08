@@ -4,5 +4,5 @@ using UnityEngine;
 
 public interface IPerformanceArtist
 {
-    public Vector3 GetLipsPosition();
+    //public Vector3 GetLipsPosition();
 }
