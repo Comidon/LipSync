@@ -13,7 +13,7 @@ public class YourLipsAreMoving : MonoBehaviour, IPerformanceArtist
     private int index = 0;
 
     //TODO: ANIMATION:close --> open 4 frames
-    private Image animation[4] = { };
+    //private Image animation[4] = { };
 
     // Start is called before the first frame update
     void Start()
