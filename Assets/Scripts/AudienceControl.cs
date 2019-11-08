@@ -5,7 +5,7 @@ using UnityEngine;
 public class AudienceControl : MonoBehaviour
 {
     private bool shaking = true;
-    private float shakeAmt = 20f;
+    public static float shakeAmt = 20f;
    
 
     private void Update()
