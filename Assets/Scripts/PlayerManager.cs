@@ -7,10 +7,22 @@ public class PlayerManager : MonoBehaviour
     private float playerYPos = 0;
     private float hp = 100f;
 
+    //I am an artist, a performance artist
+    //fafafafafafafafa
+    private IPerformanceArtist van_sama;
+
+    private void Start()
+    {
+        van_sama = GetComponentInChildren<YourLipsAreMoving>();
+    }
+
     private void Update()
     {
+        /**
         playerYPos = Input.GetAxis("Vertical") * 2;
         transform.position = new Vector3(0, playerYPos, 0);
+        */
+        playerYPos = van_sama.GetLipsPosition().y;
     }
 
     private void FixedUpdate()
