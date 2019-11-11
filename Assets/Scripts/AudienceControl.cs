@@ -4,23 +4,33 @@ using UnityEngine;
 
 public class AudienceControl : MonoBehaviour
 {
-    private bool shaking = true;
+    private bool shaking = false;
     public static float shakeAmt;
-   
+    private float tempShake = 100f;
 
     private void Update()
     {
         if(PlayerManager.instance.GetPoints()>=0)
         {
-            shakeAmt = PlayerManager.instance.GetPoints() / 5;
+            shakeAmt = PlayerManager.instance.GetPoints();
         }
         else if(PlayerManager.instance.GetPoints() < 0)
         {
             shakeAmt = 0;
         }
+        if(tempShake<shakeAmt)
+        {
+            shaking = true;
+            tempShake = shakeAmt;
+        }
+        else if(tempShake>=shakeAmt)
+        {
+            shaking = false;
+            tempShake = shakeAmt;
+        }
         if (shaking)
         {
-            Vector3 newPos = transform.position + Random.insideUnitSphere * (Time.deltaTime * shakeAmt);
+            Vector3 newPos = transform.position + Random.insideUnitSphere * (Time.deltaTime * (shakeAmt/5));
             newPos.z = transform.position.z;
             transform.position = newPos;
           
