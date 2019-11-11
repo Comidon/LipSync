@@ -25,10 +25,12 @@ public class DrawWave : MonoBehaviour
     //The number of seconds for each song beat
     private float secPerBeat;
 
-    private LineRenderer line;
+    private LineRenderer line1;
+    private LineRenderer line2;
+
     private List<Vector3> poss;
 
-    private float beatCounter = 0;
+    private float beatCounter;
 
     private float currentYPos = 0;
 
@@ -52,12 +54,16 @@ public class DrawWave : MonoBehaviour
         }
 
         poss = new List<Vector3>();
-        line = GetComponent<LineRenderer>();
+
+        line1 = GetComponentsInChildren<LineRenderer>()[0];
+        line2 = GetComponentsInChildren<LineRenderer>()[1];
 
         beep = GetComponent<AudioSource>();
         x = transform.position.x;
         y = transform.position.y;
         z = transform.position.z;
+
+        beatCounter = x;
     }
 
     // Start is called before the first frame update
@@ -75,8 +81,6 @@ public class DrawWave : MonoBehaviour
         AddBlank(1);
         AddBlank(1);
         AddBlank(1);
-
-        line.SetPositions(poss.ToArray());
     }
 
     public float GetOriginYPos()
@@ -86,22 +90,22 @@ public class DrawWave : MonoBehaviour
 
     public void AddTri()
     {
-        poss.Add(new Vector3(x + beatCounter + 1, y + high, z));
-        poss.Add(new Vector3(x + beatCounter + 2, y + low, z));
+        poss.Add(new Vector3(beatCounter + 1, y + high, z));
+        poss.Add(new Vector3(beatCounter + 2, y + low, z));
         beatCounter += 2;
     }
 
     public void AddBlank(int numOfBeats)
     {
-        poss.Add(new Vector3(x + beatCounter + numOfBeats * 2, y + low, z));
+        poss.Add(new Vector3(beatCounter + numOfBeats * 2, y + low, z));
         beatCounter += numOfBeats * 2;
     }
 
     public void AddPlat(int numOfBeats)
     {
-        poss.Add(new Vector3(x + beatCounter + 1, y + high, z));
-        poss.Add(new Vector3(x + beatCounter + 1 + numOfBeats * 2, y + high, z));
-        poss.Add(new Vector3(x + beatCounter + 2 + numOfBeats * 2, y + low, z));
+        poss.Add(new Vector3(beatCounter + 1, y + high, z));
+        poss.Add(new Vector3(beatCounter + 1 + numOfBeats * 2, y + high, z));
+        poss.Add(new Vector3(beatCounter + 2 + numOfBeats * 2, y + low, z));
         beatCounter += numOfBeats * 2 + 2;
     }
 
@@ -130,7 +134,7 @@ public class DrawWave : MonoBehaviour
 
         if (positiveIndex != 0)
         {
-            currentYPos = (0 - poss[positiveIndex - 1].x) * ((poss[positiveIndex].y - poss[positiveIndex - 1].y) / (poss[positiveIndex].x - poss[positiveIndex - 1].x)) + poss[positiveIndex - 1].y;
+            currentYPos = (x - poss[positiveIndex - 1].x) * ((poss[positiveIndex].y - poss[positiveIndex - 1].y) / (poss[positiveIndex].x - poss[positiveIndex - 1].x)) + poss[positiveIndex - 1].y - y;
         }
         else
         {
@@ -145,17 +149,17 @@ public class DrawWave : MonoBehaviour
             poss[i] += velocity;
         }
 
-        if (poss.Count >= 2 && poss[1].x < 0 && poss[1].y == low)
+        if (poss.Count >= 2 && poss[1].x < x && poss[1].y.Equals(low + y))
         {
             poss.RemoveAt(0);
             _RandomInstantiate(poss[poss.Count - 1].x);
         }
-        else if (poss.Count >= 3 && poss[2].x < 0 && poss[2].y == low)
+        else if (poss.Count >= 3 && poss[2].x < x && poss[2].y.Equals(low + y))
         {
             poss.RemoveRange(0, 2);
             _RandomInstantiate(poss[poss.Count - 1].x);
         }
-        else if (poss.Count >= 4 && poss[3].x < 0 && poss[3].y == low)
+        else if (poss.Count >= 4 && poss[3].x < x && poss[3].y.Equals(low + y))
         {
             poss.RemoveRange(0, 3);
             _RandomInstantiate(poss[poss.Count - 1].x);
@@ -167,6 +171,7 @@ public class DrawWave : MonoBehaviour
         }
 
         Vector3[] tempPoss = new Vector3[poss.Count + 2];
+        Vector3[] tempPossM = new Vector3[poss.Count + 2];
 
         poss.CopyTo(tempPoss, 1);
 
@@ -175,8 +180,15 @@ public class DrawWave : MonoBehaviour
         // Set far pos
         tempPoss[poss.Count + 1] = new Vector3(x + 100, y + low, z);
 
-        line.positionCount = poss.Count + 2;
-        line.SetPositions(tempPoss);
+        for (int i = 0; i < tempPoss.Length; i++)
+        {
+            tempPossM[i] = new Vector3(tempPoss[i].x, 2 * y - tempPoss[i].y, tempPoss[i].z);
+        }
+
+        line1.positionCount = poss.Count + 2;
+        line2.positionCount = poss.Count + 2;
+        line1.SetPositions(tempPoss);
+        line2.SetPositions(tempPossM);
     }
 
     private void _RandomInstantiate(float pos)
