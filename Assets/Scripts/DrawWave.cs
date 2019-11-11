@@ -36,6 +36,10 @@ public class DrawWave : MonoBehaviour
 
     private float beeper = 0;
 
+    private float x;
+    private float y;
+    private float z;
+
     private void Awake()
     {
         if (instance == null)
@@ -51,6 +55,9 @@ public class DrawWave : MonoBehaviour
         line = GetComponent<LineRenderer>();
 
         beep = GetComponent<AudioSource>();
+        x = transform.position.x;
+        y = transform.position.y;
+        z = transform.position.z;
     }
 
     // Start is called before the first frame update
@@ -79,22 +86,22 @@ public class DrawWave : MonoBehaviour
 
     public void AddTri()
     {
-        poss.Add(new Vector3(beatCounter + 1, high, 0));
-        poss.Add(new Vector3(beatCounter + 2, low, 0));
+        poss.Add(new Vector3(x + beatCounter + 1, y + high, z));
+        poss.Add(new Vector3(x + beatCounter + 2, y + low, z));
         beatCounter += 2;
     }
 
     public void AddBlank(int numOfBeats)
     {
-        poss.Add(new Vector3(beatCounter + numOfBeats * 2, low, 0));
+        poss.Add(new Vector3(x + beatCounter + numOfBeats * 2, y + low, z));
         beatCounter += numOfBeats * 2;
     }
 
     public void AddPlat(int numOfBeats)
     {
-        poss.Add(new Vector3(beatCounter + 1, high, 0));
-        poss.Add(new Vector3(beatCounter + 1 + numOfBeats * 2, high, 0));
-        poss.Add(new Vector3(beatCounter + 2 + numOfBeats * 2, low, 0));
+        poss.Add(new Vector3(x + beatCounter + 1, y + high, z));
+        poss.Add(new Vector3(x + beatCounter + 1 + numOfBeats * 2, y + high, z));
+        poss.Add(new Vector3(x + beatCounter + 2 + numOfBeats * 2, y + low, z));
         beatCounter += numOfBeats * 2 + 2;
     }
 
@@ -164,9 +171,9 @@ public class DrawWave : MonoBehaviour
         poss.CopyTo(tempPoss, 1);
 
         // Set init pos
-        tempPoss[0] = new Vector3(-10, low, 0);
+        tempPoss[0] = new Vector3(x - 10, y + low, z);
         // Set far pos
-        tempPoss[poss.Count + 1] = new Vector3(100, low, 0);
+        tempPoss[poss.Count + 1] = new Vector3(x + 100, y + low, z);
 
         line.positionCount = poss.Count + 2;
         line.SetPositions(tempPoss);
