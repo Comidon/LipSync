@@ -334,6 +334,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   songBpm: 0
   velocity: {x: -0.1, y: 0, z: 0}
+  low: 0.8
+  high: 1.25
+  deleteX: 0
 --- !u!82 &298624545
 AudioSource:
   m_ObjectHideFlags: 0

@@ -11,6 +11,15 @@ public class DrawWave : MonoBehaviour
     [SerializeField]
     Vector3 velocity;
 
+    [SerializeField]
+    float low;
+
+    [SerializeField]
+    float high;
+
+    [SerializeField]
+    float deleteX;
+
     public static DrawWave instance;
 
     //The number of seconds for each song beat
@@ -55,12 +64,6 @@ public class DrawWave : MonoBehaviour
         AddBlank(1);
         AddBlank(1);
         AddBlank(1);
-        AddBlank(2);
-        AddBlank(2);
-        AddBlank(2);
-        AddBlank(2);
-        AddBlank(2);
-        AddBlank(2);
 
         line.SetPositions(poss.ToArray());
     }
@@ -72,22 +75,22 @@ public class DrawWave : MonoBehaviour
 
     public void AddTri()
     {
-        poss.Add(new Vector3(beatCounter + 1, 2, 0));
-        poss.Add(new Vector3(beatCounter + 2, 0, 0));
+        poss.Add(new Vector3(beatCounter + 1, high, 0));
+        poss.Add(new Vector3(beatCounter + 2, low, 0));
         beatCounter += 2;
     }
 
     public void AddBlank(int numOfBeats)
     {
-        poss.Add(new Vector3(beatCounter + numOfBeats * 2, 0, 0));
+        poss.Add(new Vector3(beatCounter + numOfBeats * 2, low, 0));
         beatCounter += numOfBeats * 2;
     }
 
     public void AddPlat(int numOfBeats)
     {
-        poss.Add(new Vector3(beatCounter + 1, 2, 0));
-        poss.Add(new Vector3(beatCounter + 1 + numOfBeats * 2, 2, 0));
-        poss.Add(new Vector3(beatCounter + 2 + numOfBeats * 2, 0, 0));
+        poss.Add(new Vector3(beatCounter + 1, high, 0));
+        poss.Add(new Vector3(beatCounter + 1 + numOfBeats * 2, high, 0));
+        poss.Add(new Vector3(beatCounter + 2 + numOfBeats * 2, low, 0));
         beatCounter += numOfBeats * 2 + 2;
     }
 
@@ -132,17 +135,17 @@ public class DrawWave : MonoBehaviour
             poss[i] += velocity;
         }
 
-        if (poss.Count >= 2 && poss[1].x < 0 && poss[1].y == 0)
+        if (poss.Count >= 2 && poss[1].x < 0 && poss[1].y == low)
         {
             poss.RemoveAt(0);
             _RandomInstantiate(poss[poss.Count - 1].x);
         }
-        else if (poss.Count >= 3 && poss[2].x < 0 && poss[2].y == 0)
+        else if (poss.Count >= 3 && poss[2].x < 0 && poss[2].y == low)
         {
             poss.RemoveRange(0, 2);
             _RandomInstantiate(poss[poss.Count - 1].x);
         }
-        else if (poss.Count >= 4 && poss[3].x < 0 && poss[3].y == 0)
+        else if (poss.Count >= 4 && poss[3].x < 0 && poss[3].y == low)
         {
             poss.RemoveRange(0, 3);
             _RandomInstantiate(poss[poss.Count - 1].x);
@@ -158,9 +161,9 @@ public class DrawWave : MonoBehaviour
         poss.CopyTo(tempPoss, 1);
 
         // Set init pos
-        tempPoss[0] = new Vector3(-10, 0, 0);
+        tempPoss[0] = new Vector3(-10, low, 0);
         // Set far pos
-        tempPoss[poss.Count + 1] = new Vector3(100, 0, 0);
+        tempPoss[poss.Count + 1] = new Vector3(100, low, 0);
 
         line.positionCount = poss.Count + 2;
         line.SetPositions(tempPoss);
