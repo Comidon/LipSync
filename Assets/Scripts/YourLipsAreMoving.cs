@@ -39,7 +39,7 @@ public class YourLipsAreMoving : MonoBehaviour, IPerformanceArtist
 
             if ((yDelta0 < 0 && yDelta1 > 0) || (yDelta0 > 0 && yDelta1 < 0))
             {
-                print(UpperYDelta);
+                //print(UpperYDelta);
                 float yCur0 = firstTouch.position.y;
                 float yCur1 = secondTouch.position.y;
                 if (yCur0>yCur1)
