@@ -49,8 +49,8 @@ public class PlayerManager : MonoBehaviour
     private void FixedUpdate()
     {
         Debug.Log(hp);
-        Debug.Log("Line pos: " + DrawWave.instance.GetOriginYPos());
-        Debug.Log("Player pos: " + playerYPos);
+        //Debug.Log("Line pos: " + DrawWave.instance.GetOriginYPos());
+        //Debug.Log("Player pos: " + playerYPos);
         if (Mathf.Abs(DrawWave.instance.GetOriginYPos() - playerYPos) > thatsGood)
         {
             hp -= damage;
