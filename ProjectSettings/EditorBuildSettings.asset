@@ -8,7 +8,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Mouth_Demo_Scene.unity
     guid: 4f876574d2836234c93261c114a65dfa
+  - enabled: 1
+    path: Assets/Scenes/Draw.unity
+    guid: f51073b7017024c43b8b50a8c89b13c3
   m_configObjects: {}
