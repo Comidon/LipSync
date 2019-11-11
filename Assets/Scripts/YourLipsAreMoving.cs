@@ -17,12 +17,13 @@ public class YourLipsAreMoving : MonoBehaviour, IPerformanceArtist
     private int previous_index = 0;
     private float[] range = {0, 15, 30, 45, 60 };
     private float square_base = 0.8f;
-    private float[] square_range = { 0f, 0.1f, 0.2f, 0.4f };
+    private float[] square_range = { 0f, 0.15f, 0.3f, 0.45f };
 
     // Start is called before the first frame update
     void Start()
     {
         controller = LipAnimation.GetComponent<LipController>();
+        square_base = Upper.transform.localPosition.y;
     }
 
     // Update is called once per frame
