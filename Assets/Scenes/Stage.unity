@@ -1018,7 +1018,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1754123749}
   - component: {fileID: 1754123748}
-  - component: {fileID: 1754123750}
   m_Layer: 0
   m_Name: player
   m_TagString: Untagged
@@ -1089,26 +1088,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1754123750
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1754123747}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4c4ab37601537d24d8fe2eb24ea08742, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerObject: {fileID: 1754123747}
-  floatTextPrefab: {fileID: 4602108073842026578, guid: 6b3ca239965e83746aa9997e65e3f599,
-    type: 3}
-  textColor:
-  - {r: 0.6792453, g: 0.105731584, b: 0.12554741, a: 0}
-  - {r: 0.764151, g: 0.32044756, b: 0.09732112, a: 0}
-  - {r: 0.5754717, g: 0.029859383, b: 0.20876667, a: 0}
-  textKillTime: 2
 --- !u!1 &1954272993
 GameObject:
   m_ObjectHideFlags: 0
