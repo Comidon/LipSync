@@ -5,12 +5,19 @@ using UnityEngine;
 public class AudienceControl : MonoBehaviour
 {
     private bool shaking = true;
-    public static float shakeAmt = 20f;
+    public static float shakeAmt;
    
 
     private void Update()
     {
-        
+        if(PlayerManager.instance.GetPoints()>=0)
+        {
+            shakeAmt = PlayerManager.instance.GetPoints() / 5;
+        }
+        else if(PlayerManager.instance.GetPoints() < 0)
+        {
+            shakeAmt = 0;
+        }
         if (shaking)
         {
             Vector3 newPos = transform.position + Random.insideUnitSphere * (Time.deltaTime * shakeAmt);
