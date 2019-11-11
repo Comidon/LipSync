@@ -7,7 +7,7 @@ public class PlayerManager : MonoBehaviour
     [SerializeField]
     private float thatsGood = 0.149f;
 
-    private float damage = 2f;
+    private float damage = 0.5f;
 
     private float recover = 0.2f;
 
