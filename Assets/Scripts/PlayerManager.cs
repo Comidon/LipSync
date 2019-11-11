@@ -9,7 +9,7 @@ public class PlayerManager : MonoBehaviour
 
     private float damage = 0.5f;
 
-    private float recover = 0.2f;
+    private float recover = 0.35f;
 
     private float playerYPos = 0;
     private float hp = 100f;
