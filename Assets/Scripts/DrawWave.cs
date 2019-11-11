@@ -64,6 +64,10 @@ public class DrawWave : MonoBehaviour
         AddBlank(1);
         AddBlank(1);
         AddBlank(1);
+        AddBlank(1);
+        AddBlank(1);
+        AddBlank(1);
+        AddBlank(1);
 
         line.SetPositions(poss.ToArray());
     }
@@ -120,11 +124,10 @@ public class DrawWave : MonoBehaviour
         if (positiveIndex != 0)
         {
             currentYPos = (0 - poss[positiveIndex - 1].x) * ((poss[positiveIndex].y - poss[positiveIndex - 1].y) / (poss[positiveIndex].x - poss[positiveIndex - 1].x)) + poss[positiveIndex - 1].y;
-            currentYPos = Mathf.Abs(currentYPos);
         }
         else
         {
-            currentYPos = 0;
+            currentYPos = low;
         }
     }
 
