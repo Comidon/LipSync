@@ -14,9 +14,23 @@ public class PlayerManager : MonoBehaviour
     private float playerYPos = 0;
     private float hp = 100f;
 
+    public static PlayerManager instance;
+
     //I am an artist, a performance artist
     //fafafafafafafafa
     private IPerformanceArtist van_sama;
+
+    private void Awake()
+    {
+        if (instance == null)
+        {
+            instance = this;
+        }
+        else
+        {
+            Destroy(this);
+        }
+    }
 
     private void Start()
     {
@@ -35,6 +49,8 @@ public class PlayerManager : MonoBehaviour
     private void FixedUpdate()
     {
         Debug.Log(hp);
+        Debug.Log(DrawWave.instance.GetOriginYPos());
+        Debug.Log(playerYPos);
         if (Mathf.Abs(DrawWave.instance.GetOriginYPos() - playerYPos) > thatsGood)
         {
             hp -= damage;
@@ -48,5 +64,10 @@ public class PlayerManager : MonoBehaviour
         {
             hp = 100;
         }
+    }
+
+    public float GetPoints()
+    {
+        return hp;
     }
 }
