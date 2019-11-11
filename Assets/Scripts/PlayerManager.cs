@@ -4,6 +4,13 @@ using UnityEngine;
 
 public class PlayerManager : MonoBehaviour
 {
+    [SerializeField]
+    private float thatsGood = 0.149f;
+
+    private float damage = 2f;
+
+    private float recover = 0.2f;
+
     private float playerYPos = 0;
     private float hp = 100f;
 
@@ -28,14 +35,14 @@ public class PlayerManager : MonoBehaviour
     private void FixedUpdate()
     {
         Debug.Log(hp);
-        if (Mathf.Abs(DrawWave.instance.GetOriginYPos() - playerYPos) > 1.4)
+        if (Mathf.Abs(DrawWave.instance.GetOriginYPos() - playerYPos) > thatsGood)
         {
-            hp -= 2;
+            hp -= damage;
         }
 
         if (hp < 99.8)
         {
-            hp += 0.2f;
+            hp += recover;
         }
         else
         {
