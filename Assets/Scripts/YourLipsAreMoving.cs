@@ -15,7 +15,7 @@ public class YourLipsAreMoving : MonoBehaviour, IPerformanceArtist
     private LipController controller;
 
     private int previous_index = 0;
-    private float[] range = {0, 15, 30, 45, 60 };
+    private float[] range = {0, 3, 6, 9, 12 };
     private float square_base = 0.8f;
     private float[] square_range = { 0f, 0.15f, 0.3f, 0.45f };
 
@@ -76,6 +76,7 @@ public class YourLipsAreMoving : MonoBehaviour, IPerformanceArtist
             for(var i = previous_index; i < new_index; i++)
             {
                 controller.NextState();
+                Upper.transform.localPosition = new Vector3(0, square_base + square_range[i], 0);
             }
         }else if (new_index < previous_index)
         {
@@ -83,17 +84,18 @@ public class YourLipsAreMoving : MonoBehaviour, IPerformanceArtist
             {
                 UpperYDelta = range[0];
             }
-            for (var i = new_index; i < previous_index; i++)
+            for (var i = previous_index-1; i >= new_index; i--)
             {
                 controller.PreviousState();
+                Upper.transform.localPosition = new Vector3(0, square_base + square_range[i], 0);
             }
         }
 
         previous_index = new_index;
 
         //print(new_index);
-        Upper.transform.localPosition = new Vector3(0, square_base + square_range[new_index-1], 0);
-        Lower.transform.localPosition = new Vector3(0, - square_base - square_range[new_index-1], 0);
+        Upper.transform.localPosition = new Vector3(0, square_base + square_range[new_index - 1], 0);
+        Lower.transform.localPosition = new Vector3(0, -square_base - square_range[new_index - 1], 0);
     }
 
     public Vector3 GetLipsPosition()
