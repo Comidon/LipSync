@@ -15,7 +15,7 @@ public class YourLipsAreMoving : MonoBehaviour, IPerformanceArtist
     private LipController controller;
 
     private int previous_index = 0;
-    private float[] range = {0, 3, 6, 9, 12 };
+    private float[] range = {0, 2.5f, 5f, 7.5f, 10f };
     private float square_base = 0.8f;
     private float[] square_range = { 0f, 0.15f, 0.3f, 0.45f };
 
