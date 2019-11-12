@@ -32,7 +32,7 @@ public class AudienceControl : MonoBehaviour
         }
         if (shaking)
         {
-            Vector3 newPos = transform.position + Random.insideUnitSphere * (Time.deltaTime * (shakeAmt - tempShake)*50);
+            Vector3 newPos = transform.position + Random.insideUnitSphere * (Time.deltaTime * (shakeAmt - tempShake)*70);
             newPos.y = transform.position.y;
             newPos.z = transform.position.z;
             transform.position = newPos;
