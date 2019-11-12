@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class AudienceControl : MonoBehaviour
 {
-    private bool shaking = true;
+    private bool shaking = false;
     public static float shakeAmt;
     private float tempShake = 100f;
 
@@ -12,27 +12,31 @@ public class AudienceControl : MonoBehaviour
     {
         if(PlayerManager.instance.GetPoints()>=0)
         {
-            shakeAmt = PlayerManager.instance.GetPoints()/10;
+            //shaking = true;
+            shakeAmt = PlayerManager.instance.GetPoints();
         }
         else if(PlayerManager.instance.GetPoints() < 0)
         {
+            //shaking = false;
             shakeAmt = 0;
         }
-        /*if(tempShake<shakeAmt)
+        if(tempShake<shakeAmt)
         {
             shaking = true;
-            tempShake = shakeAmt;
+            //tempShake = shakeAmt;
         }
         else if(tempShake>=shakeAmt)
         {
             shaking = false;
             tempShake = shakeAmt;
-        }*/
+        }
         if (shaking)
         {
-            Vector3 newPos = transform.position + Random.insideUnitSphere * (Time.deltaTime * (shakeAmt));
+            Vector3 newPos = transform.position + Random.insideUnitSphere * (Time.deltaTime * (shakeAmt - tempShake)*50);
+            newPos.y = transform.position.y;
             newPos.z = transform.position.z;
             transform.position = newPos;
+            tempShake = shakeAmt;
           
         }
     }
