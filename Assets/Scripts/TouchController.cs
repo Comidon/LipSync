@@ -79,5 +79,6 @@ public class TouchController : MonoBehaviour
     public void Show_Shop()
     {
         Shop.SetActive(true);
+        Return_Button.SetActive(true);
     }
 }
