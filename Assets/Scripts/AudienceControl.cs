@@ -7,10 +7,21 @@ public class AudienceControl : MonoBehaviour
     private bool shaking = false;
     public static float shakeAmt;
     private float tempShake = 100f;
+    Animator animator;
+
+    private void Start()
+    {
+       animator = GetComponent<Animator>();
+    }
+    
 
     private void Update()
     {
-        if(PlayerManager.instance.GetPoints()>=0)
+        if(PlayerManager.instance.GetPoints()>=70)
+        {
+            animator.SetTrigger("DoesWell");
+        }
+        if (PlayerManager.instance.GetPoints() >= 0)
         {
             //shaking = true;
             shakeAmt = PlayerManager.instance.GetPoints();
