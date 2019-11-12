@@ -12,16 +12,18 @@ public class AudienceControl : MonoBehaviour
     {
         if(PlayerManager.instance.GetPoints()>=0)
         {
+            //shaking = true;
             shakeAmt = PlayerManager.instance.GetPoints();
         }
         else if(PlayerManager.instance.GetPoints() < 0)
         {
+            //shaking = false;
             shakeAmt = 0;
         }
         if(tempShake<shakeAmt)
         {
             shaking = true;
-            tempShake = shakeAmt;
+            //tempShake = shakeAmt;
         }
         else if(tempShake>=shakeAmt)
         {
@@ -30,9 +32,11 @@ public class AudienceControl : MonoBehaviour
         }
         if (shaking)
         {
-            Vector3 newPos = transform.position + Random.insideUnitSphere * (Time.deltaTime * (shakeAmt/5));
+            Vector3 newPos = transform.position + Random.insideUnitSphere * (Time.deltaTime * (shakeAmt - tempShake)*70);
+            newPos.y = transform.position.y;
             newPos.z = transform.position.z;
             transform.position = newPos;
+            tempShake = shakeAmt;
           
         }
     }
