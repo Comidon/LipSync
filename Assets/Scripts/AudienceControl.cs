@@ -5,12 +5,24 @@ using UnityEngine;
 public class AudienceControl : MonoBehaviour
 {
     private bool shaking = false;
+    private bool shakingN = false;
     public static float shakeAmt;
     private float tempShake = 100f;
+    Animator animator;
+
+    private void Start()
+    {
+       animator = GetComponent<Animator>();
+    }
+    
 
     private void Update()
     {
-        if(PlayerManager.instance.GetPoints()>=0)
+        if(PlayerManager.instance.GetPoints()>=70)
+        {
+            animator.SetTrigger("DoesWell");
+        }
+        if (PlayerManager.instance.GetPoints() >= 0)
         {
             //shaking = true;
             shakeAmt = PlayerManager.instance.GetPoints();
@@ -32,12 +44,21 @@ public class AudienceControl : MonoBehaviour
         }
         if (shaking)
         {
-            Vector3 newPos = transform.position + Random.insideUnitSphere * (Time.deltaTime * (shakeAmt - tempShake)*70);
+            ShakeMe();
+            /*Vector3 newPos = transform.position + Random.insideUnitSphere * (Time.deltaTime * (shakeAmt - tempShake)*50);
+            newPos.x = transform.position.x;
+            newPos.z = transform.position.z;
+            transform.position = newPos;
+            tempShake = shakeAmt;*/
+          
+        }
+        if(shakingN)
+        {
+            Vector3 newPos = transform.position + Random.insideUnitSphere * (Time.deltaTime * (shakeAmt - tempShake) * 30);
             newPos.y = transform.position.y;
             newPos.z = transform.position.z;
             transform.position = newPos;
             tempShake = shakeAmt;
-          
         }
     }
     public void ShakeMe()
@@ -48,13 +69,13 @@ public class AudienceControl : MonoBehaviour
     IEnumerator ShakeNow()
     {
         Vector3 originalPos = transform.position;
-        if(shaking == false)
+        if(shakingN == false)
         {
-            shaking = true;
+            shakingN = true;
         }
-        yield return new WaitForSeconds(2.5f);
+        yield return new WaitForSeconds(0.25f);
 
-        shaking = false;
+        shakingN = false;
         transform.position = originalPos;
             
     }

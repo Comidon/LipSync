@@ -8,10 +8,13 @@ public class triggerText : MonoBehaviour
     public string TextToShow2;
     private float tempShake = 100f;
     public static float getShake;
+    public Transform sparkle;
+    public Transform sparkleBad;
     // Start is called before the first frame update
     void Start()
     {
-      
+        sparkle.GetComponent<ParticleSystem>().enableEmission = false;
+        sparkleBad.GetComponent<ParticleSystem>().enableEmission = false;
     }
 
     // Update is called once per frame
@@ -32,7 +35,8 @@ public class triggerText : MonoBehaviour
     }
     public void SpawnText()
     {
-        
+        sparkle.GetComponent<ParticleSystem>().enableEmission = true;
+        StartCoroutine(stopSparkles());
         GameObject PointsText = Instantiate(Resources.Load("Prefab/TextOnSpot")) as GameObject;
         if (PointsText.GetComponent<TextDisplay>() != null)
         {
@@ -45,7 +49,8 @@ public class triggerText : MonoBehaviour
     }
     public void SpawnTextBad()
     {
-        tempShake = getShake;
+        sparkleBad.GetComponent<ParticleSystem>().enableEmission = true;
+        StartCoroutine(stopSparklesBad());
         GameObject PointsText = Instantiate(Resources.Load("Prefab/TextOnSpotBad")) as GameObject;
         if (PointsText.GetComponent<TextDisplay>() != null)
         {
@@ -54,5 +59,16 @@ public class triggerText : MonoBehaviour
         }
         //PointsText.transform.position = new Vector3(gameObject.transform.position.x,gameObject.transform.position.y+100,gameObject.transform.position.z);
         PointsText.transform.position = gameObject.transform.position;
+    }
+
+    IEnumerator stopSparkles()
+    {
+        yield return new WaitForSeconds(0.4f);
+        sparkle.GetComponent<ParticleSystem>().enableEmission = false;
+    }
+    IEnumerator stopSparklesBad()
+    {
+        yield return new WaitForSeconds(0.4f);
+        sparkleBad.GetComponent<ParticleSystem>().enableEmission = false;
     }
 }
