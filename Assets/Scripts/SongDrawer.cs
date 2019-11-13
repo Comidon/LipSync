@@ -5,9 +5,6 @@ using UnityEngine;
 public class SongDrawer : MonoBehaviour
 {
     [SerializeField]
-    Vector3 velocity;
-
-    [SerializeField]
     float low;
 
     [SerializeField]
@@ -30,6 +27,7 @@ public class SongDrawer : MonoBehaviour
     private LineRenderer line2;
 
     private List<Vector3> poss;
+    private List<Vector3> possR;
 
     private float beatCounter;
 
@@ -48,6 +46,10 @@ public class SongDrawer : MonoBehaviour
     private float x;
     private float y;
     private float z;
+
+    private float lengthFactor = 4;
+
+    private float beatLength;
 
     private void Awake()
     {
@@ -82,6 +84,183 @@ public class SongDrawer : MonoBehaviour
         //Record the time when the music starts
         dspSongTime = (float)AudioSettings.dspTime;
 
+        beatLength = lengthFactor * secPerBeat;
+
+        AddBlank(26);
+        AddTri();
+        AddTri();
+        AddTri();
+        AddTri();
+        AddTri();
+        AddTri();
+        AddPlat(2);
+        AddTri();
+        AddTri();
+        AddTri();
+        AddTri();
+        AddTri();
+        AddTri();
+        AddPlat(2);
+        AddTri();
+        AddTri();
+        AddTri();
+        AddTri();
+        AddTri();
+        AddTri();
+        AddPlat(2);
+        AddTri();
+        AddTri();
+        AddTri();
+        AddTri();
+        AddTri();
+        AddTri();
+        AddPlat(2);
+        AddTri();
+        AddTri();
+        AddTri();
+        AddTri();
+        AddTri();
+        AddTri();
+        AddPlat(2);
+        AddTri();
+        AddTri();
+        AddTri();
+        AddTri();
+        AddTri();
+        AddTri();
+        AddPlat(2);
+        AddBlank(16);
+        AddTri();
+        AddTri();
+        AddTri();
+        AddTri();
+        AddTri();
+        AddTri();
+        AddPlat(2);
+        AddTri();
+        AddTri();
+        AddTri();
+        AddTri();
+        AddTri();
+        AddTri();
+        AddPlat(2);
+        AddTri();
+        AddTri();
+        AddTri();
+        AddTri();
+        AddTri();
+        AddTri();
+        AddPlat(2);
+        AddTri();
+        AddTri();
+        AddTri();
+        AddTri();
+        AddTri();
+        AddTri();
+        AddPlat(2);
+        AddTri();
+        AddTri();
+        AddTri();
+        AddTri();
+        AddTri();
+        AddTri();
+        AddPlat(2);
+        AddTri();
+        AddTri();
+        AddTri();
+        AddTri();
+        AddTri();
+        AddTri();
+        AddPlat(2);
+        AddBlank(16);
+        AddTri();
+        AddTri();
+        AddTri();
+        AddTri();
+        AddTri();
+        AddTri();
+        AddPlat(2);
+        AddTri();
+        AddTri();
+        AddTri();
+        AddTri();
+        AddTri();
+        AddTri();
+        AddPlat(2);
+        AddTri();
+        AddTri();
+        AddTri();
+        AddTri();
+        AddTri();
+        AddTri();
+        AddPlat(2);
+        AddTri();
+        AddTri();
+        AddTri();
+        AddTri();
+        AddTri();
+        AddTri();
+        AddPlat(2);
+        AddTri();
+        AddTri();
+        AddTri();
+        AddTri();
+        AddTri();
+        AddTri();
+        AddPlat(2);
+        AddTri();
+        AddTri();
+        AddTri();
+        AddTri();
+        AddTri();
+        AddTri();
+        AddPlat(2);
+        AddBlank(16);
+        AddTri();
+        AddTri();
+        AddTri();
+        AddTri();
+        AddTri();
+        AddTri();
+        AddPlat(2);
+        AddTri();
+        AddTri();
+        AddTri();
+        AddTri();
+        AddTri();
+        AddTri();
+        AddPlat(2);
+        AddTri();
+        AddTri();
+        AddTri();
+        AddTri();
+        AddTri();
+        AddTri();
+        AddPlat(2);
+        AddTri();
+        AddTri();
+        AddTri();
+        AddTri();
+        AddTri();
+        AddTri();
+        AddPlat(2);
+        AddTri();
+        AddTri();
+        AddTri();
+        AddTri();
+        AddTri();
+        AddTri();
+        AddPlat(2);
+        AddTri();
+        AddTri();
+        AddTri();
+        AddTri();
+        AddTri();
+        AddTri();
+        AddPlat(2);
+
+        possR = new List<Vector3>(poss);
+
         beep.Play();
     }
 
@@ -101,23 +280,23 @@ public class SongDrawer : MonoBehaviour
 
     public void AddTri()
     {
-        poss.Add(new Vector3(beatCounter + 1, y + high, z));
-        poss.Add(new Vector3(beatCounter + 2, y + low, z));
+        poss.Add(new Vector3((beatCounter + 1) * beatLength / 4, y + high, z));
+        poss.Add(new Vector3((beatCounter + 2) * beatLength / 4, y + low, z));
         beatCounter += 2;
     }
 
     public void AddBlank(int numOfBeats)
     {
-        poss.Add(new Vector3(beatCounter + numOfBeats * 2, y + low, z));
-        beatCounter += numOfBeats * 2;
+        poss.Add(new Vector3((beatCounter + numOfBeats) * beatLength / 4, y + low, z));
+        beatCounter += numOfBeats;
     }
 
     public void AddPlat(int numOfBeats)
     {
-        poss.Add(new Vector3(beatCounter + 1, y + high, z));
-        poss.Add(new Vector3(beatCounter + 1 + numOfBeats * 2, y + high, z));
-        poss.Add(new Vector3(beatCounter + 2 + numOfBeats * 2, y + low, z));
-        beatCounter += numOfBeats * 2 + 2;
+        poss.Add(new Vector3((beatCounter + 1) * beatLength / 4, y + high, z));
+        poss.Add(new Vector3((beatCounter + 1 + numOfBeats) * beatLength / 4, y + high, z));
+        poss.Add(new Vector3((beatCounter + 2 + numOfBeats) * beatLength / 4, y + low, z));
+        beatCounter += numOfBeats + 2;
     }
 
     private void FixedUpdate()
@@ -128,7 +307,7 @@ public class SongDrawer : MonoBehaviour
 
         for (int i = 0; i < poss.Count; i++)
         {
-            if (poss[i].x > 0)
+            if (poss[i].x > x)
             {
                 positiveIndex = i;
                 break;
@@ -149,69 +328,73 @@ public class SongDrawer : MonoBehaviour
     {
         for (int i = 0; i < poss.Count; i++)
         {
-            poss[i] += velocity;
+            poss[i] = new Vector3(possR[i].x - 2 * songPosition, poss[i].y, poss[i].z);
         }
 
         if (poss.Count >= 2 && poss[1].x < x && poss[1].y.Equals(low + y))
         {
             poss.RemoveAt(0);
-            _RandomInstantiate(poss[poss.Count - 1].x);
+            possR.RemoveAt(0);
         }
         else if (poss.Count >= 3 && poss[2].x < x && poss[2].y.Equals(low + y))
         {
             poss.RemoveRange(0, 2);
-            _RandomInstantiate(poss[poss.Count - 1].x);
+            possR.RemoveRange(0, 2);
         }
         else if (poss.Count >= 4 && poss[3].x < x && poss[3].y.Equals(low + y))
         {
             poss.RemoveRange(0, 3);
-            _RandomInstantiate(poss[poss.Count - 1].x);
+            possR.RemoveRange(0, 3);
         }
         else if (poss.Count == 1)
         {
             poss.RemoveAt(0);
-            _RandomInstantiate(poss[poss.Count - 1].x);
+            possR.RemoveAt(0);
         }
 
-        Vector3[] tempPoss = new Vector3[poss.Count + 2];
-        Vector3[] tempPossM = new Vector3[poss.Count + 2];
-
-        poss.CopyTo(tempPoss, 1);
-
-        // Set init pos
-        tempPoss[0] = new Vector3(x - 10, y + low, z);
-        // Set far pos
-        tempPoss[poss.Count + 1] = new Vector3(x + 100, y + low, z);
-
-        for (int i = 0; i < tempPoss.Length; i++)
+        if (poss.Count < 25)
         {
-            tempPossM[i] = new Vector3(tempPoss[i].x, 2 * y - tempPoss[i].y, tempPoss[i].z);
-        }
+            Vector3[] tempPoss = new Vector3[poss.Count + 2];
+            Vector3[] tempPossM = new Vector3[poss.Count + 2];
 
-        line1.positionCount = poss.Count + 2;
-        line2.positionCount = poss.Count + 2;
-        line1.SetPositions(tempPoss);
-        line2.SetPositions(tempPossM);
-    }
+            poss.CopyTo(tempPoss, 1);
 
-    private void _RandomInstantiate(float pos)
-    {
-        float rand = Random.Range(0f, 4f);
-        beatCounter = pos;
+            // Set init pos
+            tempPoss[0] = new Vector3(x - 10, y + low, z);
+            // Set far pos
+            tempPoss[poss.Count + 1] = new Vector3(x + 100, y + low, z);
 
-        int randLength = (int)Mathf.Floor(Random.Range(1, 3.49999999f));
+            for (int i = 0; i < tempPoss.Length; i++)
+            {
+                tempPossM[i] = new Vector3(tempPoss[i].x, 2 * y - tempPoss[i].y, tempPoss[i].z);
+            }
 
-        if (rand < 1.5)
-        {
-            AddTri();
-        }
-        else if (rand < 3.3)
-        {
-            AddBlank(randLength);
+            line1.positionCount = poss.Count + 2;
+            line2.positionCount = poss.Count + 2;
+            line1.SetPositions(tempPoss);
+            line2.SetPositions(tempPossM);
         }
         else
         {
-            AddPlat(randLength);
+            Vector3[] tempPoss = new Vector3[25 + 2];
+            Vector3[] tempPossM = new Vector3[25 + 2];
+
+            System.Array.Copy(poss.ToArray(), 0, tempPoss, 1, 25);
+
+            // Set init pos
+            tempPoss[0] = new Vector3(x - 10, y + low, z);
+            // Set far pos
+            tempPoss[25 + 1] = new Vector3(x + 100, y + low, z);
+
+            for (int i = 0; i < 25 + 2; i++)
+            {
+                tempPossM[i] = new Vector3(tempPoss[i].x, 2 * y - tempPoss[i].y, tempPoss[i].z);
+            }
+
+            line1.positionCount = 25 + 2;
+            line2.positionCount = 25 + 2;
+            line1.SetPositions(tempPoss);
+            line2.SetPositions(tempPossM);
         }
     }
 }

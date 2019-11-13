@@ -2861,8 +2861,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 298624543}
-  - component: {fileID: 298624544}
   - component: {fileID: 298624545}
+  - component: {fileID: 298624542}
   m_Layer: 0
   m_Name: Drawer
   m_TagString: Untagged
@@ -2870,6 +2870,24 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &298624542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 298624541}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 308131af69e6a834aa5e6c9ab4d4f4e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  low: 0.8
+  high: 1.25
+  deleteX: 0
+  dspSongTime: 0
+  songPosition: 0
+  songPositionInBeats: 0
 --- !u!4 &298624543
 Transform:
   m_ObjectHideFlags: 0
@@ -2886,23 +2904,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &298624544
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 298624541}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3abfb9cbc362a904083add99a01b85fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  songBpm: 0
-  velocity: {x: -0.025, y: 0, z: 0}
-  low: 0.8
-  high: 1.25
-  deleteX: 0
 --- !u!82 &298624545
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2913,7 +2914,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 569413061d1678541b8c0630e4565f28, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 97bad0292d4c04742b69b746dbd25a0a, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
