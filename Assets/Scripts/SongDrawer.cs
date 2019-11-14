@@ -19,6 +19,8 @@ public class SongDrawer : MonoBehaviour
     private float destoryOffset = -4f;
     private float songBpm = 130;
 
+    private bool isPlaying = false;
+
     //How many seconds have passed since the song started
     public float dspSongTime;
 
@@ -273,17 +275,25 @@ public class SongDrawer : MonoBehaviour
         AddPlat(2);
 
         possR = new List<Vector3>(poss);
+    }
 
+    public void Play()
+    {
         beep.Play();
+        isPlaying = true;
+        dspSongTime = (float)AudioSettings.dspTime;
     }
 
     private void Update()
     {
-        //determine how many seconds since the song started
-        songPosition = (float)(AudioSettings.dspTime - dspSongTime);
+        if (isPlaying)
+        {
+            //determine how many seconds since the song started
+            songPosition = (float)(AudioSettings.dspTime - dspSongTime);
 
-        //determine how many beats since the song started
-        songPositionInBeats = songPosition / secPerBeat;
+            //determine how many beats since the song started
+            songPositionInBeats = songPosition / secPerBeat;
+        }
     }
 
     public float GetOriginYPos()
@@ -326,26 +336,29 @@ public class SongDrawer : MonoBehaviour
 
     private void FixedUpdate()
     {
-        _ShiftLeft();
-
-        int positiveIndex = 0;
-
-        for (int i = 0; i < poss.Count; i++)
+        if (isPlaying)
         {
-            if (poss[i].x > x)
+            _ShiftLeft();
+
+            int positiveIndex = 0;
+
+            for (int i = 0; i < poss.Count; i++)
             {
-                positiveIndex = i;
-                break;
+                if (poss[i].x > x)
+                {
+                    positiveIndex = i;
+                    break;
+                }
             }
-        }
 
-        if (positiveIndex != 0)
-        {
-            currentYPos = (x - poss[positiveIndex - 1].x) * ((poss[positiveIndex].y - poss[positiveIndex - 1].y) / (poss[positiveIndex].x - poss[positiveIndex - 1].x)) + poss[positiveIndex - 1].y - y;
-        }
-        else
-        {
-            currentYPos = low;
+            if (positiveIndex != 0)
+            {
+                currentYPos = (x - poss[positiveIndex - 1].x) * ((poss[positiveIndex].y - poss[positiveIndex - 1].y) / (poss[positiveIndex].x - poss[positiveIndex - 1].x)) + poss[positiveIndex - 1].y - y;
+            }
+            else
+            {
+                currentYPos = low;
+            }
         }
     }
 

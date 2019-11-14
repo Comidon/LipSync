@@ -18,6 +18,7 @@ public class destroyButton : MonoBehaviour
     }
     public void DestroyButton()
     {
+        SongDrawer.instance.Play();
         Destroy(gameObject);
         Destroy(GameObject.Find("Instructions"));
     }
