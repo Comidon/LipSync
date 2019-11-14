@@ -19,54 +19,57 @@ public class AutoPlay : MonoBehaviour
 
     public void Auto()
     {
-        on = true;
+         on = true;
     }
 
     private void Update()
     {
-        float currentPos = SongDrawer.instance.GetOriginYPos();
-
-        if (currentPos < 0.9)
+        if (on)
         {
-            upper.transform.localPosition = new Vector3(0, square_base + square_range[0], 0);
-            lower.transform.localPosition = new Vector3(0, -square_base - square_range[0], 0);
+            float currentPos = SongDrawer.instance.GetOriginYPos();
 
-            currentState = 0;
+            if (currentPos < 0.9)
+            {
+                upper.transform.localPosition = new Vector3(0, square_base + square_range[0], 0);
+                lower.transform.localPosition = new Vector3(0, -square_base - square_range[0], 0);
+
+                currentState = 0;
+            }
+
+            else if (currentPos < 1.05)
+            {
+                upper.transform.localPosition = new Vector3(0, square_base + square_range[1], 0);
+                lower.transform.localPosition = new Vector3(0, -square_base - square_range[1], 0);
+
+                currentState = 1;
+            }
+
+            else if (currentPos < 1.2)
+            {
+                upper.transform.localPosition = new Vector3(0, square_base + square_range[2], 0);
+                lower.transform.localPosition = new Vector3(0, -square_base - square_range[2], 0);
+
+                currentState = 2;
+            }
+
+            else
+            {
+                upper.transform.localPosition = new Vector3(0, square_base + square_range[3], 0);
+                lower.transform.localPosition = new Vector3(0, -square_base - square_range[3], 0);
+
+                currentState = 3;
+            }
+
+            if (prevState > currentState)
+            {
+                controller.PreviousState();
+            }
+            else if (prevState < currentState)
+            {
+                controller.NextState();
+            }
+
+            prevState = currentState;
         }
-
-        else if (currentPos < 1.05)
-        {
-            upper.transform.localPosition = new Vector3(0, square_base + square_range[1], 0);
-            lower.transform.localPosition = new Vector3(0, -square_base - square_range[1], 0);
-
-            currentState = 1;
-        }
-
-        else if (currentPos < 1.2)
-        {
-            upper.transform.localPosition = new Vector3(0, square_base + square_range[2], 0);
-            lower.transform.localPosition = new Vector3(0, -square_base - square_range[2], 0);
-
-            currentState = 2;
-        }
-
-        else
-        {
-            upper.transform.localPosition = new Vector3(0, square_base + square_range[3], 0);
-            lower.transform.localPosition = new Vector3(0, -square_base - square_range[3], 0);
-
-            currentState = 3;
-        }
-
-        if (prevState > currentState)
-        {
-            controller.PreviousState();
-        }
-        else if (prevState < currentState)
-        {
-            controller.NextState();
-        }
-
-        prevState = currentState;
     }
 }
