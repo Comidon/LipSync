@@ -13,6 +13,10 @@ public class SongDrawer : MonoBehaviour
     [SerializeField]
     float deleteX;
 
+    [SerializeField]
+    GameObject point;
+
+    private float destoryOffset = -2f;
     private float songBpm = 130;
 
     //How many seconds have passed since the song started
@@ -28,6 +32,8 @@ public class SongDrawer : MonoBehaviour
 
     private List<Vector3> poss;
     private List<Vector3> possR;
+
+    private List<GameObject> points;
 
     private float beatCounter;
 
@@ -72,7 +78,7 @@ public class SongDrawer : MonoBehaviour
         y = transform.position.y;
         z = transform.position.z;
 
-        beatCounter = x;
+        beatCounter = 0;
     }
 
     // Start is called before the first frame update
@@ -86,7 +92,14 @@ public class SongDrawer : MonoBehaviour
 
         beatLength = lengthFactor * secPerBeat;
 
-        AddBlank(26);
+        Debug.Log("It's X: " + x);
+
+        poss.Add(new Vector3(x, y + low, z));
+
+        points = new List<GameObject>();
+        points.Add(Instantiate(point, new Vector3(x, y + low, z), Quaternion.identity));
+
+        AddBlank(32);
         AddTri();
         AddTri();
         AddTri();
@@ -280,22 +293,34 @@ public class SongDrawer : MonoBehaviour
 
     public void AddTri()
     {
-        poss.Add(new Vector3((beatCounter + 1) * beatLength / 4, y + high, z));
-        poss.Add(new Vector3((beatCounter + 2) * beatLength / 4, y + low, z));
+        poss.Add(new Vector3((beatCounter + 1) * beatLength / 4 + x, y + high, z));
+        poss.Add(new Vector3((beatCounter + 2) * beatLength / 4 + x, y + low, z));
+
+        points.Add(Instantiate(point, new Vector3((beatCounter + 1) * beatLength / 4 + x, y + high, z), Quaternion.identity));
+        points.Add(Instantiate(point, new Vector3((beatCounter + 2) * beatLength / 4 + x, y + low, z), Quaternion.identity));
+
         beatCounter += 2;
     }
 
     public void AddBlank(int numOfBeats)
     {
-        poss.Add(new Vector3((beatCounter + numOfBeats) * beatLength / 4, y + low, z));
+        poss.Add(new Vector3((beatCounter + numOfBeats) * beatLength / 4 + x, y + low, z));
+
+        points.Add(Instantiate(point, new Vector3((beatCounter + numOfBeats) * beatLength / 4 + x, y + low, z), Quaternion.identity));
+
         beatCounter += numOfBeats;
     }
 
     public void AddPlat(int numOfBeats)
     {
-        poss.Add(new Vector3((beatCounter + 1) * beatLength / 4, y + high, z));
-        poss.Add(new Vector3((beatCounter + 1 + numOfBeats) * beatLength / 4, y + high, z));
-        poss.Add(new Vector3((beatCounter + 2 + numOfBeats) * beatLength / 4, y + low, z));
+        poss.Add(new Vector3((beatCounter + 1) * beatLength / 4 + x, y + high, z));
+        poss.Add(new Vector3((beatCounter + 1 + numOfBeats) * beatLength / 4 + x, y + high, z));
+        poss.Add(new Vector3((beatCounter + 2 + numOfBeats) * beatLength / 4 + x, y + low, z));
+
+        points.Add(Instantiate(point, new Vector3((beatCounter + 1) * beatLength / 4 + x, y + high, z), Quaternion.identity));
+        points.Add(Instantiate(point, new Vector3((beatCounter + 1 + numOfBeats) * beatLength / 4 + x, y + high, z), Quaternion.identity));
+        points.Add(Instantiate(point, new Vector3((beatCounter + 2 + numOfBeats) * beatLength / 4 + x, y + low, z), Quaternion.identity));
+
         beatCounter += numOfBeats + 2;
     }
 
@@ -329,27 +354,32 @@ public class SongDrawer : MonoBehaviour
         for (int i = 0; i < poss.Count; i++)
         {
             poss[i] = new Vector3(possR[i].x - 2 * songPosition, poss[i].y, poss[i].z);
+            points[i].transform.position = new Vector3(possR[i].x - 2 * songPosition, poss[i].y, poss[i].z);
         }
 
-        if (poss.Count >= 2 && poss[1].x < x && poss[1].y.Equals(low + y))
+        if (poss.Count >= 2 && poss[1].x < x + destoryOffset && poss[1].y.Equals(low + y))
         {
             poss.RemoveAt(0);
             possR.RemoveAt(0);
+            points.RemoveAt(0);
         }
-        else if (poss.Count >= 3 && poss[2].x < x && poss[2].y.Equals(low + y))
+        else if (poss.Count >= 3 && poss[2].x < x + destoryOffset && poss[2].y.Equals(low + y))
         {
             poss.RemoveRange(0, 2);
             possR.RemoveRange(0, 2);
+            points.RemoveRange(0, 2);
         }
-        else if (poss.Count >= 4 && poss[3].x < x && poss[3].y.Equals(low + y))
+        else if (poss.Count >= 4 && poss[3].x < x + destoryOffset && poss[3].y.Equals(low + y))
         {
             poss.RemoveRange(0, 3);
             possR.RemoveRange(0, 3);
+            points.RemoveRange(0, 3);
         }
         else if (poss.Count == 1)
         {
             poss.RemoveAt(0);
             possR.RemoveAt(0);
+            points.RemoveAt(0);
         }
 
         if (poss.Count < 25)

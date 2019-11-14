@@ -279,7 +279,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -290,7 +290,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &40777685
 GameObject:
   m_ObjectHideFlags: 0
@@ -450,7 +450,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -461,7 +461,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1001 &63340426
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -690,7 +690,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -701,7 +701,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &102167025
 GameObject:
   m_ObjectHideFlags: 0
@@ -861,7 +861,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -872,7 +872,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &124715072
 GameObject:
   m_ObjectHideFlags: 0
@@ -1032,7 +1032,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -1043,7 +1043,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &126149352
 GameObject:
   m_ObjectHideFlags: 0
@@ -1203,7 +1203,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -1214,7 +1214,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &143026445
 GameObject:
   m_ObjectHideFlags: 0
@@ -1243,8 +1243,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
@@ -1478,7 +1478,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -1489,7 +1489,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &178376160
 GameObject:
   m_ObjectHideFlags: 0
@@ -1649,7 +1649,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -1660,7 +1660,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &185021226
 GameObject:
   m_ObjectHideFlags: 0
@@ -1820,7 +1820,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -1831,7 +1831,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &187159197
 GameObject:
   m_ObjectHideFlags: 0
@@ -1991,7 +1991,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -2002,7 +2002,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &240338199
 GameObject:
   m_ObjectHideFlags: 0
@@ -2162,7 +2162,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -2173,7 +2173,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &243761354
 GameObject:
   m_ObjectHideFlags: 0
@@ -2333,7 +2333,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -2344,7 +2344,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1001 &252336404
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2573,7 +2573,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -2584,7 +2584,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &264242689
 GameObject:
   m_ObjectHideFlags: 0
@@ -2744,7 +2744,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -2755,7 +2755,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &270183467
 GameObject:
   m_ObjectHideFlags: 0
@@ -2915,7 +2915,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -2926,7 +2926,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &298624541
 GameObject:
   m_ObjectHideFlags: 0
@@ -2955,11 +2955,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 308131af69e6a834aa5e6c9ab4d4f4e5, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   low: 0.8
   high: 1.25
   deleteX: 0
+  point: {fileID: 1029324949}
   dspSongTime: 0
   songPosition: 0
   songPositionInBeats: 0
@@ -2971,11 +2972,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 298624541}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.1, y: 2.3, z: -1}
+  m_LocalPosition: {x: -3.78, y: 2.3, z: -1.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1049968090}
   - {fileID: 1032790624}
+  - {fileID: 2099389251}
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3103,8 +3105,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_HorizontalAxis: Horizontal
   m_VerticalAxis: Vertical
   m_SubmitButton: Submit
@@ -3122,8 +3124,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_FirstSelected: {fileID: 0}
   m_sendNavigationEvents: 1
   m_DragThreshold: 10
@@ -3300,7 +3302,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -3311,7 +3313,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &347115692
 GameObject:
   m_ObjectHideFlags: 0
@@ -3471,7 +3473,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -3482,7 +3484,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &353549713
 GameObject:
   m_ObjectHideFlags: 0
@@ -3642,7 +3644,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -3653,7 +3655,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &374288935
 GameObject:
   m_ObjectHideFlags: 0
@@ -3813,7 +3815,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -3824,7 +3826,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1001 &384056185
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4053,7 +4055,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -4064,7 +4066,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &403737648
 GameObject:
   m_ObjectHideFlags: 0
@@ -4224,7 +4226,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -4235,7 +4237,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &406390895
 GameObject:
   m_ObjectHideFlags: 0
@@ -4395,7 +4397,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -4406,7 +4408,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &418040906
 GameObject:
   m_ObjectHideFlags: 0
@@ -4566,7 +4568,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -4577,7 +4579,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &419026319
 GameObject:
   m_ObjectHideFlags: 0
@@ -4737,7 +4739,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -4748,7 +4750,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &419363900
 GameObject:
   m_ObjectHideFlags: 0
@@ -4776,8 +4778,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6fc24e044336a894eb61d62bbc9fa149, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   Lips:
   - {fileID: 143026445}
   - {fileID: 1733718514}
@@ -5048,7 +5050,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -5059,7 +5061,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!95 &446721065
 Animator:
   serializedVersion: 3
@@ -5075,7 +5077,7 @@ Animator:
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
-  m_WarningMessage:
+  m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
@@ -5127,8 +5129,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Navigation:
     m_Mode: 3
     m_SelectOnUp: {fileID: 0}
@@ -5168,7 +5170,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument:
+          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &450573614
@@ -5181,8 +5183,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
@@ -5228,7 +5230,7 @@ Animator:
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
-  m_WarningMessage:
+  m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
@@ -5391,7 +5393,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -5402,7 +5404,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &512991902
 GameObject:
   m_ObjectHideFlags: 0
@@ -5562,7 +5564,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -5573,7 +5575,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &529981329
 GameObject:
   m_ObjectHideFlags: 0
@@ -5733,7 +5735,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -5744,7 +5746,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &532376900
 GameObject:
   m_ObjectHideFlags: 0
@@ -5904,7 +5906,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -5915,7 +5917,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &533802265
 GameObject:
   m_ObjectHideFlags: 0
@@ -6075,7 +6077,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -6086,7 +6088,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &540693822
 GameObject:
   m_ObjectHideFlags: 0
@@ -6115,8 +6117,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
@@ -6319,7 +6321,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -6330,7 +6332,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &546769061
 GameObject:
   m_ObjectHideFlags: 0
@@ -6490,7 +6492,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -6501,7 +6503,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &548175121
 GameObject:
   m_ObjectHideFlags: 0
@@ -6549,8 +6551,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_RaycastTarget: 1
@@ -6738,7 +6740,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -6749,7 +6751,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &566768453
 GameObject:
   m_ObjectHideFlags: 0
@@ -6909,7 +6911,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -6920,7 +6922,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &580617833
 GameObject:
   m_ObjectHideFlags: 0
@@ -7080,7 +7082,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -7091,7 +7093,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &581163622
 GameObject:
   m_ObjectHideFlags: 0
@@ -7251,7 +7253,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -7262,7 +7264,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &612110712
 GameObject:
   m_ObjectHideFlags: 0
@@ -7422,7 +7424,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -7433,7 +7435,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &622036417
 GameObject:
   m_ObjectHideFlags: 0
@@ -7593,7 +7595,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -7604,7 +7606,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &634345015
 GameObject:
   m_ObjectHideFlags: 0
@@ -7764,7 +7766,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -7775,7 +7777,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &636084715
 GameObject:
   m_ObjectHideFlags: 0
@@ -7935,7 +7937,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -7946,7 +7948,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!212 &649413160
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8061,8 +8063,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 0.34117648, b: 0.09803922, a: 0.89411765}
   m_RaycastTarget: 1
@@ -8246,7 +8248,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -8257,7 +8259,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &675788886
 GameObject:
   m_ObjectHideFlags: 0
@@ -8306,8 +8308,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Navigation:
     m_Mode: 3
     m_SelectOnUp: {fileID: 0}
@@ -8360,8 +8362,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
@@ -8545,7 +8547,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -8556,7 +8558,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &705684339
 GameObject:
   m_ObjectHideFlags: 0
@@ -8584,8 +8586,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b9021291b8219614cbe8e773dd2dbecf, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   Upper: {fileID: 1547549274}
   Lower: {fileID: 1941790874}
   LipAnimation: {fileID: 419363900}
@@ -8762,7 +8764,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -8773,7 +8775,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &743569377
 GameObject:
   m_ObjectHideFlags: 0
@@ -8933,7 +8935,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -8944,7 +8946,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &749257955
 GameObject:
   m_ObjectHideFlags: 0
@@ -8992,8 +8994,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_RaycastTarget: 1
@@ -9181,7 +9183,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -9192,7 +9194,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &759330156
 GameObject:
   m_ObjectHideFlags: 0
@@ -9352,7 +9354,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -9363,7 +9365,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &761664168
 GameObject:
   m_ObjectHideFlags: 0
@@ -9523,7 +9525,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -9534,7 +9536,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &766691614
 GameObject:
   m_ObjectHideFlags: 0
@@ -9694,7 +9696,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -9705,7 +9707,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &769873783
 GameObject:
   m_ObjectHideFlags: 0
@@ -9865,7 +9867,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -9876,7 +9878,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &769898521
 GameObject:
   m_ObjectHideFlags: 0
@@ -10036,7 +10038,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -10047,7 +10049,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &779143188
 GameObject:
   m_ObjectHideFlags: 0
@@ -10207,7 +10209,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -10218,7 +10220,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &779703948
 GameObject:
   m_ObjectHideFlags: 0
@@ -10378,7 +10380,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -10389,7 +10391,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &780525607
 GameObject:
   m_ObjectHideFlags: 0
@@ -10549,7 +10551,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -10560,7 +10562,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &813928705
 GameObject:
   m_ObjectHideFlags: 0
@@ -10720,7 +10722,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -10731,7 +10733,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &815539491
 GameObject:
   m_ObjectHideFlags: 0
@@ -10928,7 +10930,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -10939,7 +10941,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &828873386
 GameObject:
   m_ObjectHideFlags: 0
@@ -11099,7 +11101,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -11110,7 +11112,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &829946473
 GameObject:
   m_ObjectHideFlags: 0
@@ -11270,7 +11272,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -11281,7 +11283,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &843394074
 GameObject:
   m_ObjectHideFlags: 0
@@ -11441,7 +11443,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -11452,7 +11454,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &867909440
 GameObject:
   m_ObjectHideFlags: 0
@@ -11612,7 +11614,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -11623,7 +11625,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &895287343
 GameObject:
   m_ObjectHideFlags: 0
@@ -11980,7 +11982,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -11991,7 +11993,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &929069550
 GameObject:
   m_ObjectHideFlags: 0
@@ -12151,7 +12153,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -12162,7 +12164,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &949927904
 GameObject:
   m_ObjectHideFlags: 0
@@ -12322,7 +12324,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -12333,7 +12335,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &960786690
 GameObject:
   m_ObjectHideFlags: 0
@@ -12362,8 +12364,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
@@ -12428,7 +12430,7 @@ Animator:
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
-  m_WarningMessage:
+  m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
@@ -12591,7 +12593,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -12602,7 +12604,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &964531516
 GameObject:
   m_ObjectHideFlags: 0
@@ -12650,8 +12652,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_RaycastTarget: 1
@@ -12727,8 +12729,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_RaycastTarget: 1
@@ -12918,7 +12920,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -12929,7 +12931,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &1017330086
 GameObject:
   m_ObjectHideFlags: 0
@@ -17759,12 +17761,12 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1021093957}
+  m_GameObject: {fileID: 1018135581}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 88b50b5b4882f194e9f8eceb8a0755fb, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   TextToShow: Golden Star
   TextToShow2: Need Help
   sparkle: {fileID: 2086032225}
@@ -17775,7 +17777,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1021093957}
+  m_GameObject: {fileID: 1018135581}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1.32, y: 1.35, z: -3}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -17785,6 +17787,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1029324949 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3532716295965994207, guid: 638f2a8173057aa4d8fd7f5acfa9e725,
+    type: 3}
+  m_PrefabInstance: {fileID: 1932536845342857021}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1031511277
 GameObject:
   m_ObjectHideFlags: 0
@@ -17944,7 +17952,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -17955,7 +17963,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &1032790623
 GameObject:
   m_ObjectHideFlags: 0
@@ -18240,7 +18248,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -18251,7 +18259,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &1047781183
 GameObject:
   m_ObjectHideFlags: 0
@@ -23164,7 +23172,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -23175,7 +23183,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &1049968089
 GameObject:
   m_ObjectHideFlags: 0
@@ -23350,8 +23358,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Navigation:
     m_Mode: 3
     m_SelectOnUp: {fileID: 0}
@@ -23391,7 +23399,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument:
+          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1079407366
@@ -23404,8 +23412,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.9528302, g: 0.03146139, b: 0.03146139, a: 1}
   m_RaycastTarget: 1
@@ -23589,7 +23597,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -23600,7 +23608,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &1092826623
 GameObject:
   m_ObjectHideFlags: 0
@@ -23760,7 +23768,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -23771,7 +23779,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &1099709219
 GameObject:
   m_ObjectHideFlags: 0
@@ -23931,7 +23939,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -23942,7 +23950,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &1109335584
 GameObject:
   m_ObjectHideFlags: 0
@@ -24102,7 +24110,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -24113,7 +24121,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &1120739756
 GameObject:
   m_ObjectHideFlags: 0
@@ -24273,7 +24281,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -24284,7 +24292,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &1127112368
 GameObject:
   m_ObjectHideFlags: 0
@@ -24444,7 +24452,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -24455,7 +24463,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &1129149988
 GameObject:
   m_ObjectHideFlags: 0
@@ -24615,7 +24623,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -24626,7 +24634,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &1141005527
 GameObject:
   m_ObjectHideFlags: 0
@@ -24786,7 +24794,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -24797,7 +24805,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &1152287371
 GameObject:
   m_ObjectHideFlags: 0
@@ -24957,7 +24965,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -24968,7 +24976,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &1172475074
 GameObject:
   m_ObjectHideFlags: 0
@@ -25128,7 +25136,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -25139,7 +25147,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &1197344677
 GameObject:
   m_ObjectHideFlags: 0
@@ -25380,7 +25388,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -25391,7 +25399,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &1211565253
 GameObject:
   m_ObjectHideFlags: 0
@@ -25439,8 +25447,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_RaycastTarget: 1
@@ -25628,7 +25636,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -25639,7 +25647,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &1235259668
 GameObject:
   m_ObjectHideFlags: 0
@@ -25799,7 +25807,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -25810,7 +25818,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &1242388628
 GameObject:
   m_ObjectHideFlags: 0
@@ -25970,7 +25978,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -25981,7 +25989,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &1271815500
 GameObject:
   m_ObjectHideFlags: 0
@@ -26141,7 +26149,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -26152,7 +26160,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &1278606767
 GameObject:
   m_ObjectHideFlags: 0
@@ -26312,7 +26320,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -26323,7 +26331,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &1357699284
 GameObject:
   m_ObjectHideFlags: 0
@@ -26483,7 +26491,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -26494,7 +26502,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &1359444450
 GameObject:
   m_ObjectHideFlags: 0
@@ -26654,7 +26662,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -26665,7 +26673,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &1361146617
 GameObject:
   m_ObjectHideFlags: 0
@@ -26825,7 +26833,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -26836,7 +26844,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &1365798269
 GameObject:
   m_ObjectHideFlags: 0
@@ -26996,7 +27004,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -27007,7 +27015,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &1383892814
 GameObject:
   m_ObjectHideFlags: 0
@@ -27054,8 +27062,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7e3bf9da4ec8c7c40aced20b9f19f6b8, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   Lip1: {fileID: 143026445}
   Lip2: {fileID: 1733718514}
   Lip3: {fileID: 960786690}
@@ -27222,7 +27230,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -27233,7 +27241,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &1413339400 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7917616215222152796, guid: 3785eb9fa451c3b4ca958672df238cbe,
@@ -27255,7 +27263,7 @@ Animator:
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
-  m_WarningMessage:
+  m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
@@ -27418,7 +27426,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -27429,7 +27437,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &1427098039 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2275073071209625901, guid: a7a5216e2ba06fa4eb2010d6cea06aa3,
@@ -27451,7 +27459,7 @@ Animator:
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
-  m_WarningMessage:
+  m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
@@ -27718,7 +27726,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -27729,7 +27737,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &1485778913
 GameObject:
   m_ObjectHideFlags: 0
@@ -27889,7 +27897,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -27900,7 +27908,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &1487517442
 GameObject:
   m_ObjectHideFlags: 0
@@ -28060,7 +28068,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -28071,7 +28079,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &1518226915
 GameObject:
   m_ObjectHideFlags: 0
@@ -28231,7 +28239,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -28242,7 +28250,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &1533496397
 GameObject:
   m_ObjectHideFlags: 0
@@ -28291,8 +28299,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Navigation:
     m_Mode: 3
     m_SelectOnUp: {fileID: 0}
@@ -28332,7 +28340,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument:
+          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1533496400
@@ -28345,8 +28353,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.745283, g: 0.6751387, b: 0.18632075, a: 1}
   m_RaycastTarget: 1
@@ -28392,7 +28400,7 @@ Animator:
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
-  m_WarningMessage:
+  m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
@@ -28407,9 +28415,11 @@ GameObject:
   - component: {fileID: 1547549275}
   - component: {fileID: 1547549277}
   - component: {fileID: 1547549276}
+  - component: {fileID: 1547549279}
+  - component: {fileID: 1547549278}
   m_Layer: 5
   m_Name: Upper
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28444,8 +28454,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
@@ -28470,6 +28480,43 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1547549274}
   m_CullTransparentMesh: 0
+--- !u!50 &1547549278
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1547549274}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!58 &1547549279
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1547549274}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.1
 --- !u!1 &1554295140
 GameObject:
   m_ObjectHideFlags: 0
@@ -28629,7 +28676,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -28640,7 +28687,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &1561033553
 GameObject:
   m_ObjectHideFlags: 0
@@ -28669,8 +28716,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_HorizontalAxis: Horizontal
   m_VerticalAxis: Vertical
   m_SubmitButton: Submit
@@ -28688,8 +28735,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_FirstSelected: {fileID: 0}
   m_sendNavigationEvents: 1
   m_DragThreshold: 10
@@ -28866,7 +28913,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -28877,7 +28924,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1001 &1565508924
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29106,7 +29153,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -29117,7 +29164,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &1582174730
 GameObject:
   m_ObjectHideFlags: 0
@@ -29277,7 +29324,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -29288,7 +29335,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &1602894721
 GameObject:
   m_ObjectHideFlags: 0
@@ -29448,7 +29495,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -29459,7 +29506,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &1607624809
 GameObject:
   m_ObjectHideFlags: 0
@@ -29619,7 +29666,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -29630,7 +29677,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &1609769207
 GameObject:
   m_ObjectHideFlags: 0
@@ -29790,7 +29837,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -29801,7 +29848,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &1616168062
 GameObject:
   m_ObjectHideFlags: 0
@@ -29961,7 +30008,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -29972,7 +30019,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &1642778629
 GameObject:
   m_ObjectHideFlags: 0
@@ -30024,8 +30071,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_IgnoreReversedGraphics: 1
   m_BlockingObjects: 0
   m_BlockingMask:
@@ -30041,8 +30088,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_UiScaleMode: 0
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
@@ -30233,7 +30280,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -30244,7 +30291,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &1717029462
 GameObject:
   m_ObjectHideFlags: 0
@@ -30404,7 +30451,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -30415,7 +30462,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &1733718514
 GameObject:
   m_ObjectHideFlags: 0
@@ -30444,8 +30491,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
@@ -30648,7 +30695,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -30659,7 +30706,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &1737397002
 GameObject:
   m_ObjectHideFlags: 0
@@ -30819,7 +30866,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -30830,7 +30877,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &1741811613
 GameObject:
   m_ObjectHideFlags: 0
@@ -35796,7 +35843,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -35807,7 +35854,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &1863432958
 GameObject:
   m_ObjectHideFlags: 0
@@ -35837,8 +35884,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_IgnoreReversedGraphics: 1
   m_BlockingObjects: 0
   m_BlockingMask:
@@ -35854,8 +35901,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_UiScaleMode: 0
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
@@ -36070,7 +36117,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -36081,7 +36128,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &1870765446
 GameObject:
   m_ObjectHideFlags: 0
@@ -36241,7 +36288,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -36252,7 +36299,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &1881358986
 GameObject:
   m_ObjectHideFlags: 0
@@ -36412,7 +36459,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -36423,7 +36470,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &1884368308
 GameObject:
   m_ObjectHideFlags: 0
@@ -36583,7 +36630,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -36594,7 +36641,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &1886711503
 GameObject:
   m_ObjectHideFlags: 0
@@ -36722,9 +36769,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d1e46f6b216c7d444a7af146bdab75af, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
-  thatsGood: 0.149
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1929149762
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -36815,7 +36861,7 @@ Animator:
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
-  m_WarningMessage:
+  m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
@@ -36978,7 +37024,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -36989,7 +37035,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &1941790874
 GameObject:
   m_ObjectHideFlags: 0
@@ -37001,9 +37047,11 @@ GameObject:
   - component: {fileID: 1941790875}
   - component: {fileID: 1941790877}
   - component: {fileID: 1941790876}
+  - component: {fileID: 1941790879}
+  - component: {fileID: 1941790878}
   m_Layer: 5
   m_Name: Lower
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37038,8 +37086,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
@@ -37064,6 +37112,43 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1941790874}
   m_CullTransparentMesh: 0
+--- !u!50 &1941790878
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1941790874}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!58 &1941790879
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1941790874}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.1
 --- !u!1 &1974779115
 GameObject:
   m_ObjectHideFlags: 0
@@ -37223,7 +37308,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -37234,7 +37319,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &1990847609
 GameObject:
   m_ObjectHideFlags: 0
@@ -37394,7 +37479,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -37405,7 +37490,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &2007626927
 GameObject:
   m_ObjectHideFlags: 0
@@ -37565,7 +37650,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -37576,7 +37661,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &2013095295
 GameObject:
   m_ObjectHideFlags: 0
@@ -37736,7 +37821,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -37747,7 +37832,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &2014542974
 GameObject:
   m_ObjectHideFlags: 0
@@ -37907,7 +37992,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -37918,7 +38003,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &2024680405
 GameObject:
   m_ObjectHideFlags: 0
@@ -38078,7 +38163,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -38089,7 +38174,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &2028993902
 GameObject:
   m_ObjectHideFlags: 0
@@ -38138,8 +38223,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Material: {fileID: 2100000, guid: 4d42ffa31cb783348a0cc83ac7350efc, type: 2}
   m_Color: {r: 1, g: 0.6784314, b: 0.4, a: 0.79607844}
   m_RaycastTarget: 1
@@ -38323,7 +38408,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -38334,7 +38419,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &2037616712
 GameObject:
   m_ObjectHideFlags: 0
@@ -38384,8 +38469,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Navigation:
     m_Mode: 3
     m_SelectOnUp: {fileID: 0}
@@ -38425,7 +38510,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument:
+          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &2037616715
@@ -38438,8 +38523,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.43529415, g: 1, b: 0.4986994, a: 1}
   m_RaycastTarget: 1
@@ -38654,7 +38739,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -38665,7 +38750,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &2086032222
 GameObject:
   m_ObjectHideFlags: 0
@@ -43578,7 +43663,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -43589,7 +43674,86 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
+--- !u!1 &2099389250
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2099389251}
+  - component: {fileID: 2099389252}
+  - component: {fileID: 2099389253}
+  m_Layer: 0
+  m_Name: TrashCan
+  m_TagString: TrashCan
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2099389251
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2099389250}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 298624543}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &2099389252
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2099389250}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -1.8097935, y: -0.0024211407}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.8979621, y: 4.9225597}
+  m_EdgeRadius: 0
+--- !u!50 &2099389253
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2099389250}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &2116023851
 GameObject:
   m_ObjectHideFlags: 0
@@ -43749,7 +43913,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -43760,7 +43924,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &2116237023
 GameObject:
   m_ObjectHideFlags: 0
@@ -43920,7 +44084,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -43931,7 +44095,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &2127769781 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3172168396150972808, guid: 06605d089dde16c48b866f0ebfca50cb,
@@ -43953,7 +44117,7 @@ Animator:
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
-  m_WarningMessage:
+  m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
@@ -43973,10 +44137,10 @@ MonoBehaviour:
   m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 88b50b5b4882f194e9f8eceb8a0755fb, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   TextToShow: Great
-  TextToShow2:
+  TextToShow2: 
   sparkle: {fileID: 0}
   sparkleBad: {fileID: 0}
 --- !u!1 &2142087654
@@ -44138,7 +44302,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -44149,7 +44313,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &2143306280
 GameObject:
   m_ObjectHideFlags: 0
@@ -44309,7 +44473,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -44320,7 +44484,7 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
 --- !u!1 &2147088687
 GameObject:
   m_ObjectHideFlags: 0
@@ -44480,7 +44644,7 @@ Cloth:
   m_SphereColliders: []
   m_SelfCollisionDistance: 0.1
   m_SelfCollisionStiffness: 0.2
-  m_SelfAndInterCollisionIndices:
+  m_SelfAndInterCollisionIndices: 
   m_VirtualParticleWeights:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
@@ -44491,7 +44655,76 @@ Cloth:
   - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
   - {x: 0.5, y: 0.5, z: 0}
-  m_VirtualParticleIndices:
+  m_VirtualParticleIndices: 
+--- !u!1001 &1932536845342857021
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3532716295965994207, guid: 638f2a8173057aa4d8fd7f5acfa9e725,
+        type: 3}
+      propertyPath: m_Name
+      value: Point
+      objectReference: {fileID: 0}
+    - target: {fileID: 3699946680460617778, guid: 638f2a8173057aa4d8fd7f5acfa9e725,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.9743929
+      objectReference: {fileID: 0}
+    - target: {fileID: 3699946680460617778, guid: 638f2a8173057aa4d8fd7f5acfa9e725,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.368704
+      objectReference: {fileID: 0}
+    - target: {fileID: 3699946680460617778, guid: 638f2a8173057aa4d8fd7f5acfa9e725,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 21.95165
+      objectReference: {fileID: 0}
+    - target: {fileID: 3699946680460617778, guid: 638f2a8173057aa4d8fd7f5acfa9e725,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3699946680460617778, guid: 638f2a8173057aa4d8fd7f5acfa9e725,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3699946680460617778, guid: 638f2a8173057aa4d8fd7f5acfa9e725,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3699946680460617778, guid: 638f2a8173057aa4d8fd7f5acfa9e725,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3699946680460617778, guid: 638f2a8173057aa4d8fd7f5acfa9e725,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 23
+      objectReference: {fileID: 0}
+    - target: {fileID: 3699946680460617778, guid: 638f2a8173057aa4d8fd7f5acfa9e725,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3699946680460617778, guid: 638f2a8173057aa4d8fd7f5acfa9e725,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3699946680460617778, guid: 638f2a8173057aa4d8fd7f5acfa9e725,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 638f2a8173057aa4d8fd7f5acfa9e725, type: 3}
 --- !u!1001 &2931649824819575926
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -44562,7 +44795,7 @@ PrefabInstance:
     - target: {fileID: 2931649824342477760, guid: f95fed6aeeff12c489210721f198ad1f,
         type: 3}
       propertyPath: m_Controller
-      value:
+      value: 
       objectReference: {fileID: 9100000, guid: d630a32fcfb8c924eb8bd04647721e41, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f95fed6aeeff12c489210721f198ad1f, type: 3}
