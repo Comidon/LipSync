@@ -6,7 +6,7 @@ public class DrawWave : MonoBehaviour
 {
     [SerializeField]
     //This is determined by the song you're trying to sync up to
-    private float songBpm = 130;
+    private float songBpm;
 
     [SerializeField]
     Vector3 velocity;
