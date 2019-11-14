@@ -365,7 +365,7 @@ public class SongDrawer : MonoBehaviour
                 currentYPos = low;
             }
 
-            if (songPosition > 10)
+            if (songPosition > 60)
             {
                 done.ShowFResult();
                 isPlaying = false;
