@@ -16,10 +16,15 @@ public class SongDrawer : MonoBehaviour
     [SerializeField]
     GameObject point;
 
+    [SerializeField]
+    FuckingDone done;
+
     private float destoryOffset = -4f;
     private float songBpm = 130;
 
     private bool isPlaying = false;
+
+    public bool gameOver = false;
 
     //How many seconds have passed since the song started
     public float dspSongTime;
@@ -358,6 +363,13 @@ public class SongDrawer : MonoBehaviour
             else
             {
                 currentYPos = low;
+            }
+
+            if (songPosition > 10)
+            {
+                done.ShowFResult();
+                isPlaying = false;
+                gameOver = true;
             }
         }
     }
