@@ -16,7 +16,7 @@ public class SongDrawer : MonoBehaviour
     [SerializeField]
     GameObject point;
 
-    private float destoryOffset = -2f;
+    private float destoryOffset = -4f;
     private float songBpm = 130;
 
     //How many seconds have passed since the song started
@@ -390,7 +390,7 @@ public class SongDrawer : MonoBehaviour
             poss.CopyTo(tempPoss, 1);
 
             // Set init pos
-            tempPoss[0] = new Vector3(x - 10, y + low, z);
+            tempPoss[0] = new Vector3(x - 100, y + low, z);
             // Set far pos
             tempPoss[poss.Count + 1] = new Vector3(x + 100, y + low, z);
 
@@ -412,7 +412,7 @@ public class SongDrawer : MonoBehaviour
             System.Array.Copy(poss.ToArray(), 0, tempPoss, 1, 25);
 
             // Set init pos
-            tempPoss[0] = new Vector3(x - 10, y + low, z);
+            tempPoss[0] = new Vector3(x - 100, y + low, z);
             // Set far pos
             tempPoss[25 + 1] = new Vector3(x + 100, y + low, z);
 

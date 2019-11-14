@@ -32,12 +32,12 @@ public class AudienceControl : MonoBehaviour
             //shaking = false;
             shakeAmt = 0;
         }
-        if(tempShake<shakeAmt)
+        if(tempShake+10<shakeAmt)
         {
             shaking = true;
-            //tempShake = shakeAmt;
+            tempShake = shakeAmt;
         }
-        else if(tempShake>=shakeAmt)
+        else if(tempShake-50>=shakeAmt)
         {
             shaking = false;
             tempShake = shakeAmt;
@@ -58,7 +58,7 @@ public class AudienceControl : MonoBehaviour
             newPos.y = transform.position.y;
             newPos.z = transform.position.z;
             transform.position = newPos;
-            tempShake = shakeAmt;
+           
         }
     }
     public void ShakeMe()

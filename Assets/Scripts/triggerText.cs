@@ -26,7 +26,7 @@ public class triggerText : MonoBehaviour
             SpawnText();
             tempShake = getShake;
         }
-        else if(tempShake-10>getShake)
+        else if(tempShake-50>getShake)
         {
             SpawnTextBad();
             tempShake = getShake;
