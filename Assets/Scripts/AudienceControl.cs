@@ -18,47 +18,57 @@ public class AudienceControl : MonoBehaviour
 
     private void Update()
     {
-        if(PlayerManager.instance.GetPoints()>=70)
+        if (SongDrawer.instance.gameOver == false)
         {
-            animator.SetTrigger("DoesWell");
+            if (PlayerManager.instance.GetPoints() >= 70)
+            {
+                animator.SetTrigger("DoesWell");
+            }
+            if (PlayerManager.instance.GetPoints() >= 0)
+            {
+                //shaking = true;
+                shakeAmt = PlayerManager.instance.GetPoints();
+            }
+            else if (PlayerManager.instance.GetPoints() < 0)
+            {
+                //shaking = false;
+                shakeAmt = 0;
+            }
+            if (tempShake + 10 < shakeAmt)
+            {
+                shaking = true;
+                tempShake = shakeAmt;
+            }
+            else if (tempShake - 50 >= shakeAmt)
+            {
+                shaking = false;
+                tempShake = shakeAmt;
+            }
+            if (shaking)
+            {
+                ShakeMe();
+                /*Vector3 newPos = transform.position + Random.insideUnitSphere * (Time.deltaTime * (shakeAmt - tempShake)*50);
+                newPos.x = transform.position.x;
+                newPos.z = transform.position.z;
+                transform.position = newPos;
+                tempShake = shakeAmt;*/
+
+            }
+            if (shakingN)
+            {
+                Vector3 newPos = transform.position + Random.insideUnitSphere * (Time.deltaTime * (shakeAmt - tempShake) * 30);
+                newPos.y = transform.position.y;
+                newPos.z = transform.position.z;
+                transform.position = newPos;
+
+            }
         }
-        if (PlayerManager.instance.GetPoints() >= 0)
+        else if (SongDrawer.instance.gameOver == true)
         {
-            //shaking = true;
-            shakeAmt = PlayerManager.instance.GetPoints();
-        }
-        else if(PlayerManager.instance.GetPoints() < 0)
-        {
-            //shaking = false;
-            shakeAmt = 0;
-        }
-        if(tempShake+10<shakeAmt)
-        {
-            shaking = true;
-            tempShake = shakeAmt;
-        }
-        else if(tempShake-50>=shakeAmt)
-        {
-            shaking = false;
-            tempShake = shakeAmt;
-        }
-        if (shaking)
-        {
-            ShakeMe();
-            /*Vector3 newPos = transform.position + Random.insideUnitSphere * (Time.deltaTime * (shakeAmt - tempShake)*50);
-            newPos.x = transform.position.x;
-            newPos.z = transform.position.z;
-            transform.position = newPos;
-            tempShake = shakeAmt;*/
-          
-        }
-        if(shakingN)
-        {
-            Vector3 newPos = transform.position + Random.insideUnitSphere * (Time.deltaTime * (shakeAmt - tempShake) * 30);
+            Vector3 newPos = transform.position + Random.insideUnitSphere * (Time.deltaTime * (shakeAmt/5));
             newPos.y = transform.position.y;
             newPos.z = transform.position.z;
             transform.position = newPos;
-           
         }
     }
     public void ShakeMe()
