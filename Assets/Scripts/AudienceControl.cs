@@ -34,12 +34,12 @@ public class AudienceControl : MonoBehaviour
                 //shaking = false;
                 shakeAmt = 0;
             }
-            if (tempShake + 10 < shakeAmt)
+            if (shakeAmt>=70)
             {
                 shaking = true;
                 tempShake = shakeAmt;
             }
-            else if (tempShake - 50 >= shakeAmt)
+            else if (shakeAmt<70)
             {
                 shaking = false;
                 tempShake = shakeAmt;
@@ -56,7 +56,7 @@ public class AudienceControl : MonoBehaviour
             }
             if (shakingN)
             {
-                Vector3 newPos = transform.position + Random.insideUnitSphere * (Time.deltaTime * (shakeAmt - tempShake) * 30);
+                Vector3 newPos = transform.position + Random.insideUnitSphere * (Time.deltaTime * (shakeAmt/10));
                 newPos.y = transform.position.y;
                 newPos.z = transform.position.z;
                 transform.position = newPos;
